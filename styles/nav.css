@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 98px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+.logo i {
+  color: #31c553;
+  margin-right: 8px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #31c553;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-icons i {
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-icons i:hover {
+  color: #31c553;
+}
+
+.contact-btn {
+  background-color: #31c553;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #28a745;
+}
+
+/* Hero Section */
+/* .hero { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  background-color: #ffffff;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #222;
+  line-height: 1.2;
+}
+
+.hero-text h1 span {
+  color: #31c553;
+}
+
+.hero-text p {
+  color: #555;
+  margin: 20px 0 30px;
+  font-size: 16px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.order-btn {
+  background-color: #31c553;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #28a745;
+}
+
+.video-btn {
+  background: none;
+  border: 2px solid #31c553;
+  color: #31c553;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.video-btn:hover {
+  background-color: #31c553;
+  color: white;
+}
+
+.hero-img img {
+  width: 400px;
+  border-radius: 50%;
+  background-color: #e8f9ef;
+}
+ */

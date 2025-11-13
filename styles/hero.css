@@ -1,0 +1,143 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: #ffffff;
+  position: relative;
+  /* gap: 10px; */
+}
+
+.hero-text {
+  max-width: 40%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #222;
+  line-height: 1.2;
+}
+
+.hero-text h1 span {
+  color: #31c553;
+}
+
+.hero-text p {
+  color: #555;
+  margin: 20px 0 30px;
+  font-size: 16px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.order-btn {
+  background-color: #31c553;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #28a745;
+}
+
+.video-btn {
+  background: none;
+  border: 2px solid #31c553;
+  color: #31c553;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.video-btn:hover {
+  background-color: #31c553;
+  color: white;
+}
+.hero-img{
+padding-top: 80px;
+padding-right: 80px;
+}
+.hero-img img {
+  width: 350px;
+  height: 350px;
+ position: relative;
+}
+img.img2{
+position: absolute;
+top: 9px;
+right: 180px;
+height:430px ;
+width:380px;
+}
+
+
+
+
+
+
+
+
+  .food-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.food-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 180px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.food-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.food-info {
+  padding: 10px 0;
+}
+
+.food-info h4 {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+.food-info .stars {
+  color: #ffb400;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.food-info .price {
+  color: #16a34a;
+  font-weight: bold;
+  font-size: 15px;
+}
